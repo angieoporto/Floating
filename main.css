@@ -1,0 +1,47 @@
+/* Pon tu código css aqui */
+*{
+	margin: 0px;
+	padding:0px;
+	box-sizing: content-box;
+
+}
+body{
+	margin: 0px 5px;
+
+
+}
+.container{
+	width: 600px;
+	background-color: white;
+	border: 1px solid black;
+
+}
+.clearfix:before, .clearfix:after{
+	content:" ";
+	display: table;
+}
+.clearfix:after{
+	clear: both;
+}
+.amarillo{
+	float: left;
+	background-color: yellow;
+	height: 100px;
+	width: 25%;
+	display: block;
+
+}
+.azul{
+     background-color:blue;
+     height: 100px;
+     width:25%;
+     display: block;
+     float: left;
+}
+.rojo{
+	background-color: red;
+	height: 100px;
+	width: 25%;
+	display: block;
+	float: left;
+}
